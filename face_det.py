@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr 10 17:11:06 2022
+Created on Sun April 4 17:11:06 2023
 
-@author: liuzh
+@author: liujianjian
 """
 import gradio as gr
 import time
@@ -11,8 +11,6 @@ import cv2
 #############这里需要添加绝对路径###################
 pathf = './haarcascades/haarcascade_frontalface_alt.xml'
 pathe = './haarcascades/haarcascade_eye.xml'
-
-
 ###########################################
 
 # 人脸检测函数
